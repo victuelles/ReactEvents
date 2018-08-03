@@ -6,12 +6,12 @@ import NavBar from '../../features/nav/NavBar/NavBar';
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
+      <div>
         <NavBar />
         <Container className="main">
           <EventDashboard />
         </Container>
-      </React.Fragment>
+      </div>
     );
   }
 }
